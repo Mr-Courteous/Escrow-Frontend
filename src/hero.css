@@ -1,0 +1,126 @@
+.hero {
+    display: flex;
+
+}
+
+.hero-one {
+    width: 40%;
+}
+
+
+.hero-one-paragraph {
+    line-height: 22px;
+    font-family: Helvetica, Arial, Microsoft Yahei, 微软雅黑, STXihei, 华文细黑, sans-serif;
+    font-size: 14px;
+}
+
+
+@media (max-width: 500px) {
+    .hero-one {
+        width:100%;
+    }
+}
+
+
+
+.hero-title {
+    padding-top: 100px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Helvetica, Arial, Microsoft Yahei, 微软雅黑, STXihei, 华文细黑, sans-serif;
+}
+
+@media (max-width: 500px) {
+    .hero-title {
+        font-size: 33px;
+        padding-top: 10px;
+    }
+}
+
+
+
+
+.hero-title-2 {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Helvetica, Arial, Microsoft Yahei, 微软雅黑, STXihei, 华文细黑, sans-serif;
+    float: left;
+
+
+}
+
+
+.input-one {
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+}
+
+
+
+.hero-two {
+    padding-top: 100px;
+    width: 60%;
+    /* font-weight: 10; */
+    /* padding-top: 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 500px) {
+    .hero-two {
+        display:none;
+    }
+}
+
+
+
+.paragraphs {
+    font-size: 12px;
+}
+
+.svg {
+    /* margin-top: 100px; */
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+/* CSS */
+.button-43 {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    /* width: 100%; */
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 15px;
+}
+
+.button-43:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+    .button-43 {
+        padding: 1rem 2rem;
+    }
+}

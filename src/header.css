@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.header-holder {
+    background-color: #01426A;
+    margin: 0;
+    padding-bottom:70px;
+
+
+
+}
+
+.header-and-hero {
+    width: 75%;
+    margin: auto;
+    padding: 0px 40px;
+    /* background-color: red; */
+    font-size: 16px;
+    font-family: Roboto, Helvetica, Arial, Microsoft Yahei, 微软雅黑, STXihei, 华文细黑, sans-serif;
+    color: white;
+
+}
+
+.Logo {
+    font-size: 20px;
+    font-family: Helvetica, Arial, Microsoft Yahei, 微软雅黑, STXihei, 华文细黑, sans-serif;
+
+}
+
+
+.Logo-span {
+    color: lightgreen;
+}
+
+/* NAVIGATION BAR */
+
+
+.nav {
+    display: flex;
+    width: 100%;
+
+}
+
+.navside-one {
+    width: 30%;
+    align-items: center;
+}
+@media (max-width: 500px) {
+    .navside-one {
+        width:100%;
+        text-align: center;
+    }
+}
+
+
+
+
+.navside-two {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 500px) {
+    .navside-two {
+        display: none;
+    }
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    /* background-color: #dddddd; */
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Roboto, Helvetica, Arial, Microsoft Yahei, 微软雅黑, STXihei, 华文细黑, sans-serif;
+
+
+}
+
+.navside-three {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 500px) {
+    .navside-three {
+        display: none;
+    }
+}
+
+
+
+
